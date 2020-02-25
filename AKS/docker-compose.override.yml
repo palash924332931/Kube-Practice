@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  helloworldnode:
+    environment:
+      - NODE_ENVIRONMENT=Development
+      - PORT=80
+    ports:
+      - "30002:80"
