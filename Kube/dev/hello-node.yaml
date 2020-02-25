@@ -78,7 +78,7 @@ spec:
     #- app-staging.informatiq.no
 #    secretName: app-staging-informatiq-no-cert-prod
   rules:
-  - host: arnab14.eastus.cloudapp.azure.com
+  - host: palash.eastus.cloudapp.azure.com
     http:
       paths:           
       - path: /kube
