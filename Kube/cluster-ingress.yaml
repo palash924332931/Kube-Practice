@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - arnab2.eastus.cloudapp.azure.com
-    secretName: arnab2-eastus-cloudapp-azure-com-staging
+    - palash.eastus.cloudapp.azure.com
+    secretName: palash-eastus-cloudapp-azure-com-staging
   rules:
-  - host: arnab2.eastus.cloudapp.azure.com
+  - host: palash.eastus.cloudapp.azure.com
     http:
       paths:
       - backend:
